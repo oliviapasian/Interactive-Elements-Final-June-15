@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Clock -->
+    <p>Arrival Time: <span id="datetime"></span></p>
+
+    <!-- Stars -->
+    <div class="star">
+        <div class="star1"></div>
+        <div class="star2"></div>
+        <div class="star3"></div>
+        <div class="star4"></div>
+        <div class="star5"></div>
+        <div class="star6"></div>
+        <div class="star7"></div>
+        <div class="star8"></div>
+        <div class="star9"></div>
+        <div class="star10"></div>
+        <div class="star11"></div>
+        <div class="star12"></div>
+        <div class="star13"></div>
+        <div class="star14"></div>
+        <div class="star15"></div>
+        <div class="star16"></div>
+        <div class="star17"></div>
+        <div class="star18"></div>
+        <div class="star19"></div>
+    </div>
+
+    <!-- Page redirection script -->
+    <script>
+        // Clock
+        // Code for clock was adjusted from https://www.arclab.com/en/kb/htmlcss/display-date-time-javascript-php-ssi.html
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+
+        // Change page based on time:
+        // Code was adjusted from https://forum.webdeveloper.com/d/168372-redirect-based-on-time-of-day/7
+        var SpecialRedirectURL = ['page4.html', 'page1.html', 'page2.html', 'page3.html'];
+        function specRedirect() {
+            var currentTime = new Date();
+            var currentHour = currentTime.getHours();
+            var Hour = 0;
+            if (currentHour >= 5) { Hour = 0; }
+            if (currentHour >= 10) { Hour = 2; }
+            if (currentHour >= 15) { Hour = 3; }
+            if (currentHour >= 22) { Hour = 1; }
+
+            //alert(Hour + ' goes to: ' + SpecialRedirectURL[Hour]); (this was just for testing)
+            window.location.href = SpecialRedirectURL[Hour];
+        }
+        window.onload = function () {
+            specRedirect();
+        }
+    </script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>

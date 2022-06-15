@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(81, 0, 195);
+    min-height: 100%;
+    animation: backgroundcolor 3s ease-in-out infinite;
+}
+
+p{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9ffff;
+    font-size: 18px;
+}
+
+/* Beginning of stars, code adjusted from https://stackdiary.com/css-animations/ */
+.star1{
+    animation: floating 2.5s ease-in-out infinite;
+    top: 10%;
+    left: 20%;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background:  radial-gradient(circle at 50% 50%,
+    rgb(107, 6, 6) 15px,
+    rgb(36, 187, 187) 30%,
+    rgb(228, 26, 26) 60%,
+    rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 21px #fff5ad, inset 0px 0 5px #d3f8c8, inset 50px 0px 50px #ffcf8c, inset -20px -60px 100px #ff9a00, inset 0 50px 140px #6bdf7e, 0 0 40px #faffb0;
+    transition: top ease 2s;    
+}
+.star2{
+    animation: floating 4.5s ease-in-out infinite;
+    top: 30%;
+    left: 40%;
+    margin: auto;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    background:  radial-gradient(circle at 75% 30%,
+    rgb(107, 6, 6) 5px,
+    rgb(36, 187, 187) 8%,
+    rgb(228, 26, 26) 60%,
+    rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 21px #fdb5ff, inset 0px 0 5px #ffdef2, inset 50px 0px 50px #ff83e4, inset -20px -60px 100px #ff00c5, inset 0 50px 140px #896bdf, 0 0 55px #ffacf0;
+    transition: top ease 2s;    
+}
+.star3 {
+    animation: floating 4.8s ease-in-out infinite;
+    top: 60%;
+    left: 62%;
+    margin: auto;
+    margin: auto;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #ccffcd, inset 0px 0 5px #daffd4, inset 28px 0px 50px #00ff14, inset -20px -60px 100px #00ff32, inset 0 50px 140px #6bdf81, 0 0 25px #adffac;
+    transition: top ease 3s;    
+}
+.star4{
+    animation: floating 3s ease-in-out infinite;
+    top: 50%;
+    left: 10%;
+    margin: auto;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    background:  radial-gradient(circle at 75% 30%,
+    rgb(107, 6, 6) 5px,
+    rgb(36, 187, 187) 8%,
+    rgb(228, 26, 26) 60%,
+    rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #f9ffff, inset 0px 0 5px #d4fcff, inset 28px 0px 50px #00ffe6, inset -20px -60px 100px #00ffbd, inset 0 50px 140px #89ffe3, 0 0 25px #acfff9;
+    transition: top ease 3s;    
+}
+.star5{
+    animation: floating 4s ease-in-out infinite;
+    top: 21%;
+    left: 77%;
+    margin: auto;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: absolute;
+    background:  radial-gradient(circle at 75% 30%,
+    rgb(107, 6, 6) 5px,
+    rgb(36, 187, 187) 8%,
+    rgb(228, 26, 26) 60%,
+    rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #b1c2ff, inset 0px 0 5px #d4fcff, inset 28px 0px 50px #00b6ff, inset -20px -60px 100px #8200ff, inset 0 50px 140px #bb89ff, 0 0 40px #c4b5ff;
+    transition: top ease 2s;    
+}
+.star6{
+    animation: floating 3.7s ease-in-out infinite;
+    top: 68%;
+    left: 46%;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    position: absolute;
+    background:  radial-gradient(circle at 75% 30%,
+    rgb(107, 6, 6) 5px,
+    rgb(36, 187, 187) 8%,
+    rgb(228, 26, 26) 60%,
+    rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #ffb8a5, inset 0px 0 5px #ffebb3, inset 28px 0px 50px #ffac00, inset -20px -60px 100px #ff0000, inset 0 50px 140px #ffcd89, 0 0 40px #ffc365;
+    transition: top ease 3s;    
+}
+.star7{
+    animation: floating 6s ease-in-out infinite;
+    top: 39%;
+    left: 90%;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background:  radial-gradient(circle at 75% 30%,
+    rgb(107, 6, 6) 5px,
+    rgb(36, 187, 187) 8%,
+    rgb(228, 26, 26) 60%,
+    rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #e8d1ff, inset 0px 0 5px #c6b3ff, inset 28px 0px 50px #7d00ff, inset -20px -60px 100px #bf8aff, inset 0 50px 140px #c089ff, 0 0 27px #d0a1ff;
+    transition: top ease 2s;    
+}
+.star8{
+    animation: floating 2s ease-in-out infinite;
+    top: 70%;
+    left: 85%;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background:  radial-gradient(circle at 75% 30%,
+    rgb(107, 6, 6) 5px,
+    rgb(36, 187, 187) 8%,
+    rgb(228, 26, 26) 60%,
+    rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 20px #ffb8c7, inset 0px 0 5px #ff99d9, inset 8px 0px 50px #ff0000, inset -20px -45px 100px #ff5fbc, inset 0 50px 146px #ffd3eb, 0 0 53px #ff9797;
+    transition: top ease 2s;    
+}
+.star9 {
+    animation: floating 6.5s ease-in-out infinite;
+    top: 90%;
+    left: 36%;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #e8ff31, inset 0px 0 5px #daffd4, inset 28px 0px 50px #7eff00, inset -20px -60px 100px #f5ff00, inset 0 50px 140px #dbff00, 0 0 25px #eeffe0;
+    transition: top ease 3s;    
+}
+.star10 {
+    animation: floating 3.2s ease-in-out infinite;
+    top: 20%;
+    left: 10%;
+    margin: auto;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 21px #fdb5ff, inset 0px 0 5px #ffdef2, inset 50px 0px 50px #ff83e4, inset -20px -60px 100px #ff00c5, inset 0 50px 140px #896bdf, 0 0 22px #ffacf0;
+    transition: top ease 2s;    
+}
+.star11 {
+    animation: floating 4.2s ease-in-out infinite;
+    top: 65%;
+    left: 30%;
+    margin: auto;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 21px #b5bfff, inset 0px 0 5px #dedfff, inset 50px 0px 50px #838cff, inset -20px -60px 100px #008bff, inset 0 50px 140px #6b9fdf, 0 0 21px #acb5ff;
+    transition: top ease 3s;    
+}
+.star12 {
+    animation: floating 1.9s ease-in-out infinite;
+    top: 45%;
+    left: 75%;
+    margin: auto;
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #f9ffff, inset 0px 0 5px #d4fcff, inset 28px 0px 50px #00ffe6, inset -20px -60px 100px #00ffbd, inset 0 50px 140px #89ffe3, 0 0 33px #acfff9;
+    transition: top ease 3s;    
+}
+.star13 {
+    animation: floating 5.2s ease-in-out infinite;
+    top: 15%;
+    left: 53%;
+    margin: auto;
+    margin: auto;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 20px #ccffcd, inset 0px 0 5px #daffd4, inset 28px 0px 50px #00ff14, inset -20px -60px 100px #00ff32, inset 0 50px 140px #6bdf81, 0 0 17px #adffac;
+    transition: top ease 2s;    
+}
+.star14 {
+    animation: floating 3.1s ease-in-out infinite;
+    top: 90%;
+    left: 82%;
+    margin: auto;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 5px #f9ffff, inset 0px 0 5px #d4fcff, inset 28px 0px 50px #00ffe6, inset -20px -60px 100px #00ffbd, inset 0 50px 140px #89ffe3, 0 0 9px #acfff9;
+    transition: top ease 4s;    
+}
+.star15 {
+    animation: floating 2.2s ease-in-out infinite;
+    top: 47%;
+    left: 54%;
+    margin: auto;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 34px #6691ff, inset 0px 0 5px #d4fcff, inset 9px 0px 50px #00b6ff, inset -20px -60px 100px #8200ff, inset 0 50px 140px #bb89ff, 0 0 35px #b5daff;
+    transition: top ease 3s;    
+}
+.star16 {
+    animation: floating 1.4s ease-in-out infinite;
+    top: 84%;
+    left: 67%;
+    margin: auto;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #ff6f48, inset 0px 0 5px #ffebb3, inset 28px 0px 50px #ffac00, inset -20px -60px 100px #ff0000, inset 0 50px 140px #ffb755, 0 0 24px #ffc365;
+    transition: top ease 3s;    
+}
+.star17 {
+    animation: floating 2.1s ease-in-out infinite;
+    top: 41%;
+    left: 24%;
+    margin: auto;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #b56cff, inset 0px 0 5px #c6b3ff, inset 28px 0px 50px #7d00ff, inset -20px -60px 100px #bf8aff, inset 0 50px 140px #c089ff, 0 0 27px #d0a1ff;
+    transition: top ease 3s;    
+}
+.star18 {
+    animation: floating 1.3s ease-in-out infinite;
+    top: 30%;
+    left: 60%;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 20px #ffd86e, inset 0px 0 5px #ffc100, inset 8px 0px 50px #ff0000, inset -20px -45px 100px #ff7f5f, inset 0 50px 146px #ffd3eb, 0 0 53px #ffb897;
+    transition: top ease 3s;    
+}
+
+.star19 {
+    animation: floating 1.3s ease-in-out infinite;
+    top: 75%;
+    left: 14%;
+    margin: auto;
+    height: 61px;
+    width: 61px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 75% 30%, rgb(107, 6, 6) 5px, rgb(36, 187, 187) 8%, rgb(228, 26, 26) 60%, rgb(173, 221, 221) 100%);
+    box-shadow: inset 0 0 35px #e8ff31, inset 0px 0 5px #daffd4, inset 28px 0px 50px #7eff00, inset -20px -60px 100px #f5ff00, inset 0 50px 140px #dbff00, 0 0 40px #eeffe0;
+    transition: top ease 3s;    
+}
+/* Animations Start */
+
+@keyframes floating {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-35px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+}
+@keyframes backgroundcolor{
+    0%{
+        background-color: rgb(81, 0, 195);
+    }
+    50%{
+        background-color: rgb(110, 42, 255);
+    }
+    100%{
+        background-color: rgb(81, 0, 195);
+    }
+}
+
+
+

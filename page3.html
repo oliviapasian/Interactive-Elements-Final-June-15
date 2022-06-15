@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Elements</title>
+    <link rel="stylesheet" href="page3.css">
+</head>
+
+<body>
+	<!-- Welcome Alert -->
+    <!-- Code learned from https://www.w3schools.com/howto/howto_js_alert.asp -->
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        Good afternoon! Relax and stay a while! Check back soon to try a new interaction...
+    </div>
+    
+    <!-- Visit counter -->
+    <!-- Learned how to do it from https://medium.com/@iamcodefoxx/how-to-count-the-number-of-visits-on-your-website-with-html-css-javascript-and-the-count-api-2f99b42b5990 -->
+    <h2>This page has been visited <span id="visits"></span> times.</h2>
+    <script async src="https://api.countapi.xyz/hit/oliviapasianinteractiveelements.com/b4b9d084-83c1-4b25-8feb-6b89289821b0?callback=websiteVisits"></script>
+
+	<!-- Clock -->
+    <p>Arrival Time: <span id="datetime"></span></p>
+
+	<!-- Floating stars/circles -->
+    <div class="star">
+        <div class="star1"></div>
+        <div class="star2"></div>
+        <div class="star3"></div>
+        <div class="star4"></div>
+        <div class="star5"></div>
+        <div class="star6"></div>
+        <div class="star7"></div>
+        <div class="star8"></div>
+        <div class="star9"></div>
+        <div class="star10"></div>
+        <div class="star11"></div>
+        <div class="star12"></div>
+        <div class="star13"></div>
+        <div class="star14"></div>
+        <div class="star15"></div>
+        <div class="star16"></div>
+        <div class="star17"></div>
+        <div class="star18"></div>
+        <div class="star19"></div>
+    </div>
+
+	<!-- Link jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- Link jQuery UI library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<!-- Internal JavaScript (for the draggable interaction)-->
+	<script>
+		// Draggable interaction:
+		$(document).ready(function() {
+			    $( '.star1' ).draggable();
+				$( '.star2' ).draggable();
+			    $( '.star3' ).draggable();
+				$( '.star4' ).draggable();
+			    $( '.star5' ).draggable();
+			    $( '.star6' ).draggable();
+			    $( '.star7' ).draggable();
+			    $( '.star8' ).draggable();
+			    $( '.star9' ).draggable();
+			    $( '.star10' ).draggable();
+			    $( '.star11' ).draggable();
+				$( '.star12' ).draggable();
+			    $( '.star13' ).draggable();
+			    $( '.star14' ).draggable();
+			    $( '.star15' ).draggable();
+			    $( '.star16' ).draggable();
+			    $( '.star17' ).draggable();
+			    $( '.star18' ).draggable();
+				$( '.star19' ).draggable();
+			});
+	</script>
+
+	<!-- Javascript links  -->
+    <script src="script.js"></script>
+	
+</body>
+
+</html>
